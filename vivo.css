@@ -1,0 +1,274 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bdy{
+    width: 100%;
+    height: 4005px;
+    background-color: white;
+}
+.header{
+    width: 100%;
+    height: 86px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.head1{
+    width: 1358px;
+    height: 86px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logo{
+    width: 104px;
+    height: 86px;
+    background-color:white;
+}
+.logo img{
+    width: 90px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+
+.nav{
+    width: 1072px;
+    height: 86px;
+    background-color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+    
+}
+.nav h5{
+    margin-top: 30px;
+    font-family: "languageFont","AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+}
+.search{
+    width: 28px;
+    height: 28px;
+    
+    margin-top: 25px;
+}
+.search img{
+    width: 100%;
+    height: 100%;
+
+}
+.end{
+    width: 86px;
+    height: 86px;
+    
+}
+.sec1{
+    width: 100%;
+    height: 735px;
+    
+}
+.sec1 img{
+    width: 100%;
+    height: 100%;
+}
+.sec2{
+    width: 1358px;
+    height: 592px;
+    
+    margin: 60px 0px 0px 90px;
+    
+}
+.sec2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+.sec3{
+    width: 1358px;
+    height: 591px;
+    margin: 60px 0px 0px 90px;
+
+}
+.sec3 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+.sec4{
+    width: 100%;
+    height: 1095px;
+    background-color: rgb(194, 211, 211);
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    
+}
+.outer{
+    width: 1358px;
+    height: 932px;
+    background-color: rgb(194, 211, 211);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 110px;
+}
+.colm1{
+    width: 430px;
+    height: 759px;
+    
+    display: grid;
+    grid-auto-flow: 1fr 1fr;
+    grid-row-gap: 10px;
+}
+.colm2{
+    width: 430px;
+    height: 662px;
+    background-color: rgb(194, 211, 211);
+}
+.colm3{
+    width: 430px;
+    height: 813px;
+    background-color: rgb(194, 211, 211);
+    display: grid;
+    grid-auto-flow: 1fr 1fr;
+    grid-row-gap: 30px;
+}
+.rc1{
+    width: 429px;
+    height: 325px;
+    
+}
+.rc2{
+    width: 429px;
+    height: 431px;
+    background-color: white;
+    margin-top: 20px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.cr1{
+    width: 429px;
+    height: 490px;
+    background-color: rgb(248, 252, 252);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+
+    
+}
+.cr2{
+    width: 429px;
+    height: 325px;
+    
+}
+.rc1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+
+}
+.colm2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+
+}
+.rc2 img{
+    width: 100%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
+}
+.cr1 img{
+    width: 100%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
+}
+.cr2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+.c1r2t{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    
+    
+}
+.c1r2t p{
+    font-family: "languageFont","AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+    font-size: 1.443vw;
+    line-height: 1.2;
+    margin-top: 40px;
+    margin-left: 70px;
+    
+}
+.footer{
+    width: 100%;
+    height: 800px;
+    background-color: #202131;
+}
+.topftr{
+    width: 100%;
+    height: 720px;
+    background-color: #202131;
+    display: flex;
+    justify-content: center;
+}
+.inrftr{
+    width: 1360px;
+    height: 645px;
+    display: flex;
+    flex-direction: row;
+    background-color: #202131;
+    
+}
+.lftftr{
+    width: 745px;
+    height: 596px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.ftr1{
+
+    width: 170px;
+    height: 596;
+}
+.rgtftr{
+    width: 296px;
+    height: 601px;
+    margin-left: 250px;
+    margin-top: 10px;
+    
+}
+.list{
+    color: aliceblue;
+    list-style: none;
+    margin: 10px 0px 0px 10px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    font-family: "languageFont","AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+}
+.rgtftr img{
+    width: 100%;
+    height: 70%;
+    margin-top: 20px;
+   
+}
+.lastftr img{
+    width: 100%;
+    height: 100%;
+}
+
